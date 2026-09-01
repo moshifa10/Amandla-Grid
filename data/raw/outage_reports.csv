@@ -1,0 +1,41 @@
+report_id,area,utility_type,status,reported_at,source
+1,Soweto,electricity,outage,2026-09-01 06:30:00,whatsapp
+2,Midrand,water,outage,2026-09-01 07:15:00,community
+3,Pretoria,electricity,restored,2026-09-01 08:20:00,municipality
+4,Soweto,electricity,outage,2026-09-01 06:30:00,whatsapp
+5,Sandton,Electricity,OUTAGE,2026-09-01 09:45:00,WhatsApp
+6,Alexandra,water,restored,2026-09-01 10:15:00,community
+7,midrand,WATER,OUTAGE,2026-09-01 11:00:00,Community
+8,Johannesburg,power,outage,2026-09-01 11:30:00,whatsapp
+9,Pretoria,electricity,fixed,2026-09-01 12:10:00,municipality
+10,Soweto,water,no water,2026-09-01 12:35:00,whatsapp
+11,,electricity,outage,2026-09-01 13:00:00,community
+12,Centurion,,outage,2026-09-01 13:20:00,whatsapp
+13,Roodepoort,electricity,,2026-09-01 14:00:00,community
+14,Tembisa,water,outage,,whatsapp
+15,Diepsloot,electricity,outage,not-a-date,community
+16,Sandton,electricity,outage,2026/09/01 15:30,whatsapp
+17,Soweto,electricity,restored,01-09-2026 16:00,municipality
+18,Pretoria,water,outage,2026-13-01 17:00:00,community
+19,Alexandra,water,outage,2026-09-01 25:30:00,whatsapp
+20,Midrand,electricity,outage,2026-09-02 01:10:00,
+21,  Soweto  , electricity , outage ,2026-09-02 05:15:00, whatsapp
+22,SANDTON,ELECTRICITY,RESTORED,2026-09-02 06:00:00,MUNICIPALITY
+23,Johannesburg,electric,outage,2026-09-02 06:45:00,whatsapp
+24,Johannesburg,water,broken,2026-09-02 07:00:00,community
+25,Tembissa,electricity,outage,2026-09-02 07:20:00,whatsapp
+26,Midrand,water,restored,2026-09-02 07:40:00,sensor
+27,Midrand,water,restored,2026-09-02 07:40:00,sensor
+28,Cosmo City,water,outage,2026-09-02 08:05:00,Whats App
+29,Diepsloot,electricity,outage,2026-09-02 08:15:00,user report
+30,Pretoria,electricity,unknown,2026-09-02 08:30:00,community
+31,Soweto,gas,outage,2026-09-02 08:45:00,whatsapp
+32,Sandton,internet,outage,2026-09-02 09:00:00,community
+33,Alexandra,water,outage,2035-09-02 09:15:00,whatsapp
+34,Roodepoort,electricity,restored,2025-09-02 09:30:00,municipality
+35,Pretoria,electricity,outage,NULL,whatsapp
+36,NULL,water,outage,2026-09-02 10:10:00,community
+37,Soweto,electricity,outage,2026-09-02 10:20:00,NULL
+38,Soweto,electricity,Out Age,2026-09-02 10:30:00,whatsapp
+39,Midrand,waters,outage,2026-09-02 10:45:00,community
+40,Johannesburg,electricity,restore,2026-09-02 11:00:00,municipality
