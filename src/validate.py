@@ -1,5 +1,6 @@
 import pandas as pd
 from src.extract import read_report
+import numpy as np
 
 
 
@@ -40,7 +41,9 @@ def area_validator_check1(row: pd.Series) -> bool:
     '''
         Validate Area to check Null, Empty and return False
     '''
-
+    if pd.isna(row.area) or len(str(row.area).strip()) == 0:
+        return False
+    return True
 
 
 def area_validator_check2(row: pd.Series) -> str:
@@ -48,7 +51,20 @@ def area_validator_check2(row: pd.Series) -> str:
         Validate Area to check if the City Exists
     '''
 
-    
+    cites =[]
+    area  = row.area
+    try:
+        int(area)
+        return "Area is a Number"
+    except ValueError:
+
+
+        
+        
+
+
+
+
 
 
 
@@ -65,8 +81,8 @@ if __name__ == "__main__":
     # df = read_report(file_name)
     # validate(df)
     df = pd.DataFrame({
-    'report_id': [None, 'Bob'],
-    'Age': [25, 30],
+    'report_id': ["sdsdsdsd", 'Bob'],
+    'area': ["21", 30],
     'City': ['New York', 'Paris']
     })
-    print(report_id_validator(df.iloc[0]))
+    print(area_validator_check1(df.iloc[0]))
